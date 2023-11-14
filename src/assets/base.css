@@ -1,0 +1,39 @@
+/* Colors */
+:root {
+    --main-color: #605DEC;
+
+    --background-color: #FFFFFF;
+    --background-color-disabled: #F4F3FE;
+
+    --stroke-focused: #F845FC;
+    --stroke-grey: #BDBCDB;
+
+    --text-black: #212121;
+    --text-white: #FFFFFF;
+    --text-gray: #8A8894;
+    --text-disabled: #C5C0DB;
+    --text-validation: #FFB82E;
+    --text-error: #F93232;
+
+    --button-primary-text: #FFFFFF;
+    --button-primary-default: #605DEC;
+    --button-primary-hover: #3D3ACE;
+    --button-primary-click: #23209F;
+    --button-primary-disabled: #F4F3FE;
+    --button-primary-text-disabled: #C5C0DB;
+
+    --button-secondary-text: #605DEC;
+    --button-secondary-stroke-default: #605DEC;
+    --button-secondary-hover: #F6F5FF;
+    --button-secodary-disabled: #F4F3FE;
+    --button-secodary-text-disabled: #C5C0DB;
+
+    --input-default: #F7F7FD;
+    --input-hover-stroke: #E8E6F8;
+    --input-active-stroke: #605DEC;
+    --input-validation: #FFFBF4;
+    --input-validation-stroke: #FFEAC1;
+    --input-error: #FFF5F5;
+    --input-error-stroke: #FFD8D8;
+    --input-text-disabled: #A5A5A7;
+}

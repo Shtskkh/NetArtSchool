@@ -1,0 +1,40 @@
+@import url('./base.css');
+@import url('./buttons.css');
+@import url('./inputs.css');
+@import url('./text.css');
+@import url('./links.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+*,*::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0 16px;
+    min-height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: var(--background-color);
+}
+
+@media (min-width: 1280px) {
+    #app {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+/* Tablets */
+@media (min-width: 640px) and (max-width: 1279px) {
+    #app {
+        max-width: 576px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 639px){
+    #app {
+        max-width: 272px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,38 @@
+.input {
+    outline: transparent;
+    border: none;
+    border-radius: 4px;
+    color: var(--text-black);
+    background-color: var(--input-default);
+    transition-duration: 0.2s;
+}
+
+.input::placeholder {
+    font-size: 16px;
+    line-height: 24%;
+}
+
+.input:hover {
+    outline: 2px solid var(--input-hover-stroke);
+}
+
+.input:focus {
+    outline: 2px solid var(--input-active-stroke);
+}
+
+.input:disabled {
+    outline: transparent;
+}
+
+.input:disabled::placeholder {
+    color: var(--input-text-disabled);
+}
+
+.input:invalid {
+    outline: 2px solid var(--input-validation-stroke);
+    background-color: var(--input-validation);
+}
+.input.error {
+    outline: 2px solid var(--input-error-stroke);
+    background-color: var(--input-error);
+}
